@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecomove | Transportasi Sekolah Ramah Lingkungan</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+     
+        h1 { color: #111; }
+        .card { background-color: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+        .badge-full { color: red; font-weight: bold; }
+        .badge-mid { color: #e0a800; font-weight: bold; }
+        .impact-container { display: flex; gap: 2rem; }
+        .impact-card { flex: 1; padding: 1rem; border-radius: 10px; }
+        .impact-before { background-color: #fff5f5; color: #d33; }
+        .impact-after { background-color: #f0fff4; color: #28a745; }
+        .impact-card h3 { margin-top: 0; }
+        .icon { margin-right: 0.5rem; }
+      </style>
+  </head>
+  <body>
+    <div class>
+      <!-- navbar -->
+      <nav class="navbar navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="leaf logo.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Ecomove
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="color: white"
+                aria-current="page"
+                href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white" href="jadwal.html"
+                >Jadwal</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="kapasitas.html"
+                >Kapasitas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="about.html"
+                >Tentang Ecomove</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      
+    </div>
+    <div class="p-3 mb-2 bg-light">
+        <h1>Jadwal Bus</h1>
+        <!-- jadwal start -->
+        <table class="table table-hover">
+            <thead>
+              <tr>
+
+                <th scope="col">RUTE</th>
+                <th scope="col">PEMBERHENTIAN</th>
+                <th scope="col">KEBERANGKATAN</th>
+                <th scope="col">KAPASITAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SMA/SMP Surabaya Timur</td>
+                <td>SMAN 1 → SMAN 2 → SMAN 5 → SMPN 1 → SMPN 1 Sidoarjo</td>
+                <td>06:26 - 07:15</td>
+                <td>04/40</td>
+              </tr>
+              <tr>
+                <td>SMP/SMA Sidoarjo</td>
+                <td>SMPN 2 Sidoarjo → SMPN 5 Sidoarjo → SMA PGRI 1 Sidoarjo → SMP Negeri 6 Surabaya → SMA Negeri 3 Surabaya</td>
+                <td>06:25 - 07:29</td>
+                <td>24/40</td>
+              </tr>
+              <tr>
+                <td>SMA/SMP Sidoarjo Barat</td>
+                <td>SMAN 3 Sidoarjo → SMPN 3 Sidoarjo → SMA Islam Sidoarjo → SMP Katolik Sidoarjo → SMAN 16 Surabaya</td>
+                <td>06:13 - 07:09</td>
+                <td>20/40</td>
+              </tr>
+            </tbody>
+          </table>
+        <!-- jadwal end -->
+
+  <div class="card">
+    <h2>Dampak Lalu Lintas</h2>
+    <div class="impact-container">
+      <div class="impact-card impact-before">
+        <h3>Sebelum Ecomove</h3>
+        <p><strong>🚗 Lalu Lintas:</strong> High</p>
+        <p><strong>🔹 Kecepatan Rata-rata:</strong> 15 km/jam</p>
+        <p><strong>⏱️ Waktu Perjalanan:</strong> 50 menit</p>
+      </div>
+      <div class="impact-card impact-after">
+        <h3>Setelah Ecomove</h3>
+        <p><strong>🚗 Lalu Lintas:</strong> Medium</p>
+        <p><strong>🔹 Kecepatan Rata-rata:</strong> 24 km/jam</p>
+        <p><strong>⏱️ Waktu Perjalanan:</strong> 30 menit</p>
+      </div>
+    </div>
+  </div>
+
+       </div>
+           <!-- Footer start -->
+           <footer class="bg-dark text-light py-4">
+            <div class="container text-light text-center px-5">
+              <div class="row">
+                <div class="col-sm-4 col-lg-5">
+                  <h3 class="text-start pt-3">Ecomove</h3>
+                  <p class="text-start">Solusi transportasi sekolah ramah lingkungan dengan teknologi surya modern.</p>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                  <h4 class="pt-3 text-start">Menu</h4>
+                  <ul class="list-unstyled text-start">
+                    <li><a href="index.html" class="text-decoration-none text-light">Beranda</a></li>
+                    <li><a href="jadwal.html" class="text-decoration-none text-light">Jadwal</a></li>
+                    <li><a href="kapasitas.html" class="text-decoration-none text-light">Kapasitas</a></li>
+                    <li><a href="about.html" class="text-decoration-none text-light">Tentang Ecomove</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4 col-lg-4 text-lg-end">
+                  <h4 class="pt-3 text-start">Hubungi Tim Kami</h4>
+                  <div class="text-start">
+                    <a href="https://www.instagram.com/kamil.tobii/" class="text-light"><i class="bi bi-instagram fs-5 me-3"></i></a>
+                    <a href="https://www.instagram.com/rafi_rahs/" class="text-light"><i class="bi bi-instagram fs-5 me-3"></i></a>
+                    <a href="https://www.instagram.com/adityaputtraaa_/" class="text-light"><i class="bi bi-instagram fs-5 me-3"></i></a>
+                    <a href="https://www.instagram.com/fhmikkk/" class="text-light"><i class="bi bi-instagram fs-5"></i></a>
+                  </div>
+            </div>
+            <hr>
+            <div class="text-white-50">
+              <p>© 2025 Thabibi. Hak Cipta Dilindungi.</p>
+            </div>
+          </footer>
+          <!-- Footer end -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"
+      ></script>
+  </body>
+</html>
