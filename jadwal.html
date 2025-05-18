@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecomove | Transportasi Sekolah Ramah Lingkungan</title>
+    <title>Ecomove | Jadwal Bus</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -105,44 +105,28 @@
   <body>
     <div class>
       <!-- navbar -->
-      <nav class="navbar navbar-dark bg-success">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img
-              src="leaf logo.png"
-              alt="Logo"
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
+            <img src="leaf logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
             Ecomove
           </a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                style="color: white"
-                aria-current="page"
-                href="index.html"
-                >Beranda</a
-              >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" style="color: white" href="jadwal.html"
-                >Jadwal</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: white" href="kapasitas.html"
-                >Kapasitas</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: white" href="about.html"
-                >Tentang Ecomove</a
-              >
-            </li>
-          </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active text-white" href="index.html">Beranda</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="jadwal.html">Jadwal</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="kapasitas.html">Kapasitas</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="about.html">Tentang Ecomove</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- navbar end -->
@@ -150,7 +134,7 @@
       
     </div>
     <div class="container p-4">
-      <h1>Jadwal Bus</h1>
+      <h1 class="fw-bold">Jadwal Bus</h1>
       <!-- Tombol untuk memperbarui kapasitas secara acak dengan icon dan teks baru -->
       <button class="btn btn-refresh" onclick="updateKapasitas()">
           <i class="bi bi-arrow-clockwise"></i> Perbarui Kapasitas Bus
@@ -222,7 +206,7 @@
             <div class="container text-light text-center px-5">
               <div class="row">
                 <div class="col-sm-4 col-lg-5">
-                  <h3 class="text-start pt-3">Ecomove</h3>
+                  <h3 class="text-start pt-3" style="color: rgb(17, 141, 63);">Ecomove</h3>
                   <p class="text-start">Solusi transportasi sekolah ramah lingkungan dengan teknologi surya modern.</p>
                 </div>
                 <div class="col-sm-4 col-lg-3">
@@ -246,7 +230,7 @@
             <hr>
             <div class="text-white-50">
               <p>! HANYA SIMULASI !</p>
-              <p>© 2025 Ecomove Corp. Hak Cipta Dilindungi.</p>
+              <p>© 2025 7031 Digital.</p>
             </div>
           </footer>
           <!-- Footer end -->
